@@ -36,33 +36,33 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 8%; /* Nearly black background */
+    --foreground: 0 0% 90%; /* Light gray text */
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 12%; /* Dark gray card background */
+    --card-foreground: 0 0% 90%; /* Light gray text on card */
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 12%; /* Dark gray popover background */
+    --popover-foreground: 0 0% 90%; /* Light gray text on popover */
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 0 0% 100%; /* Pure white primary color */
+    --primary-foreground: 0 0% 10%; /* Dark gray/black text on primary */
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 0 0% 16%; /* Darker gray for secondary elements */
+    --secondary-foreground: 0 0% 90%; /* Light gray text on secondary */
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 0 0% 20%; /* Muted dark gray */
+    --muted-foreground: 0 0% 70%; /* Lighter muted text */
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 0 0% 12%; /* Similar to secondary but slightly lighter */
+    --accent-foreground: 0 0% 90%; /* Light gray text on accent */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 100% 50%; /* Bright red for destructive actions */
+    --destructive-foreground: 0 0% 90%; /* Light text on destructive */
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 0 0% 20%; /* Dark gray border color */
+    --input: 0 0% 14%; /* Input background - dark gray */
+    --ring: 0 0% 60%; /* Light gray ring for focus */
   }
 }
 
